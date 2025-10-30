@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Simple Todo App",
+  "version": "1.0",
+  "description": "A simple ToDo app using chrome.storage",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.jpg"
+    }
+  },
+  "permissions": ["storage"],
+  "icons": {
+    "16": "icon.jpg"
+  }
+}

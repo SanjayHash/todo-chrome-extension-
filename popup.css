@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'TIMES NEW ROMAN';
+  background: #f5f8fa;
+  width: 320px;
+}
+
+.container {
+  padding: 15px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.input-group {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  font-size: 14px;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  background-color: #3b82f6;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 0 8px 8px 0;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #2563eb;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background: #ffffff;
+  margin-bottom: 10px;
+  padding: 10px 12px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+li span {
+  flex: 1;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+li span.editable:focus {
+  outline: 1px dashed #2563eb;
+  background: #eef2ff;
+}
+
+li button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: #999;
+}
+
+li button:hover {
+  color: #f87171;
+}
